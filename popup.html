@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPT translate</title>
+  <style>
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      box-sizing: border-box;
+    }
+
+    output {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      box-sizing: border-box;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>GPT Translation</h1>
+  <p>Please enter your GPT token:</p>
+  <input type="text" id="token-input">
+  <button id="token-save-button">Save token</button><br><br>
+  <p>Please enter text to translate:</p>
+  <input type="text" id="text-input">
+  <button id="translate-button">Translation</button><br><br>
+  <output id="translation-output"></output>
+</body>
+<script src="background.js"></script>
+</html>
